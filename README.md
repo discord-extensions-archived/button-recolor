@@ -3,6 +3,8 @@
 # Button Recolor
 Simply change Discord's default button colors.
 
+![Preview](./screenshots/preview.gif)
+
 ## Installation
 For **[Powercord](http://powercord.dev/)** or **[Vizality](https://vizality.com/)** installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
 ```

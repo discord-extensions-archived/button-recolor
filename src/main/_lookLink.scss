@@ -1,0 +1,55 @@
+@mixin linkHover($color) {
+    background-image: linear-gradient(0deg, transparent, transparent 1px, $color 0, $color 2px, transparent 0);
+}
+
+#app-mount .lookLink-9FtZy- {
+    &.colorBrand-3pXr91 {
+        color: var(--blurple-text);
+
+        &:hover .contents-18-Yxp {
+            @include linkHover(var(--blurple-text));
+        }
+    }
+    &.colorGreen-29iAKY {
+        color: var(--green-text);
+
+        &:hover .contents-18-Yxp {
+            @include linkHover(var(--green-text));
+        }
+    }
+    &.colorYellow-2JqYwt {
+        color: var(--yellow-text);
+
+        &:hover .contents-18-Yxp {
+            @include linkHover(var(--yellow-text));
+        }
+    }
+    &.colorRed-1TFJan {
+        color: var(--red-text);
+
+        &:hover .contents-18-Yxp {
+            @include linkHover(var(--red-text));
+        }
+    }
+    &.colorGrey-2DXtkV {
+        color: var(--grey-text);
+
+        &:hover .contents-18-Yxp {
+            @include linkHover(var(--grey-text));
+        }
+    }
+    &.colorPrimary-3b3xI6 {
+        color: var(--primary-white-text);
+
+        &:hover .contents-18-Yxp {
+            @include linkHover(var(--primary-white-text));
+        }
+    }
+    &.colorLink-35jkBc {
+        color: var(--link-text);
+
+        &:hover .contents-18-Yxp {
+            @include linkHover(var(--link-text));
+        }
+    }
+}

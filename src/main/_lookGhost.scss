@@ -1,0 +1,36 @@
+#app-mount .lookGhost-2Fn_0- {
+    opacity: 0.8;
+
+    &:hover {
+        opacity: 1;
+    }
+
+    &.colorBrand-3pXr91 {
+        background-color: var(--blurple-ghost);
+        color: var(--blurple-text);
+    }
+    &.colorGreen-29iAKY {
+        background-color: var(--green-ghost);
+        color: var(--green-text);
+    }
+    &.colorYellow-2JqYwt {
+        background-color: var(--yellow-ghost);
+        color: var(--yellow-text);
+    }
+    &.colorRed-1TFJan {
+        background-color: var(--red-ghost);
+        color: var(--red-text);
+    }
+    &.colorGrey-2DXtkV {
+        background-color: var(--grey-ghost);
+        color: var(--grey-text);
+    }
+    &.colorPrimary-3b3xI6 {
+        background-color: var(--primary-ghost);
+        color: var(--primary-white-text);
+    }
+    &.colorLink-35jkBc {
+        background-color: var(--link-ghost);
+        color: var(--link-text);
+    }
+}

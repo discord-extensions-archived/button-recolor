@@ -1,0 +1,58 @@
+#app-mount .lookFilled-1Gx00P {
+    &.colorBrand-3pXr91 {
+        background-color: var(--blurple-filled);
+        color: var(--default-white);
+
+        &:hover {
+            background-color: var(--blurple-filled-hover);
+        }
+    }
+    &.colorGreen-29iAKY {
+        background-color: var(--green-filled);
+        color: var(--default-white);
+
+        &:hover {
+            background-color: var(--green-filled-hover);
+        }
+    }
+    &.colorYellow-2JqYwt {
+        background-color: var(--yellow-filled);
+        color: var(--default-white);
+
+        &:hover {
+            background-color: var(--yellow-filled-hover);
+        }
+    }
+    &.colorRed-1TFJan {
+        background-color: var(--red-filled);
+        color: var(--default-white);
+
+        &:hover {
+            background-color: var(--red-filled-hover);
+        }
+    }
+    &.colorGrey-2DXtkV {
+        background-color: var(--grey-filled);
+        color: var(--default-white);
+
+        &:hover {
+            background-color: var(--grey-filled-hover);
+        }
+    }
+    &.colorPrimary-3b3xI6 {
+        background-color: var(--primary-filled);
+        color: var(--default-white);
+
+        &:hover {
+            background-color: var(--primary-filled-hover);
+        }
+    }
+    &.colorLink-35jkBc {
+        background-color: var(--link-filled);
+        color: var(--default-white);
+
+        &:hover {
+            background-color: var(--link-filled-hover);
+        }
+    }
+}

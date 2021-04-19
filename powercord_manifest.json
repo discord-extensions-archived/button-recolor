@@ -1,0 +1,9 @@
+{
+    "name": "Custom Buttons",
+    "description": "Change the default Discord buttons.",
+    "version": "1.0.0",
+    "author": "LuckFire#4800",
+    "theme": "index.scss",
+    "consent": "true",
+    "license": "MIT"
+}

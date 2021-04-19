@@ -1,0 +1,29 @@
+#app-mount .lookInverted-2D7oAl {
+    background-color: var(--default-inverted);
+    
+    &:hover {
+        background-color: var(--default-inverted-hover);
+    }
+
+    &.colorBrand-3pXr91 {
+        color: var(--blurple-text);
+    }
+    &.colorGreen-29iAKY {
+        color: var(--green-text);
+    }
+    &.colorYellow-2JqYwt {
+        color: var(--yellow-text);
+    }
+    &.colorRed-1TFJan {
+        color: var(--red-text);
+    }
+    &.colorGrey-2DXtkV {
+        color: var(--grey-text);
+    }
+    &.colorPrimary-3b3xI6 {
+        color: var(--primary-text);
+    }
+    &.colorLink-35jkBc {
+        color: var(--link-text);
+    }
+}

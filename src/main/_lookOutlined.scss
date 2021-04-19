@@ -1,30 +1,74 @@
 #app-mount .lookOutlined-3sRXeN {
     &.colorBrand-3pXr91 {
-        color: var(--blurple-text);
-        border-color: var(--blurple-border);
+        color: rgba(var(--blurple));
+        border-color: rgba(var(--blurple));
+
+        &:active {
+            background-color: rgba(var(--blurple), 0.1);
+        }
     }
     &.colorGreen-29iAKY {
-        color: var(--green-text);
-        border-color: var(--green-border);
+        color: rgba(var(--green));
+        border-color: rgba(var(--green));
+
+        &:active {
+            background-color: rgba(var(--green), 0.1);
+        }
     }
     &.colorYellow-2JqYwt {
-        color: var(--yellow-text);
-        border-color: var(--yellow-border);
+        color: rgba(var(--yellow));
+        border-color: rgba(var(--yellow));
+
+        &:active {
+            background-color: rgba(var(--yellow), 0.1);
+        }
     }
     &.colorRed-1TFJan {
-        color: var(--red-text);
-        border-color: var(--red-border);
+        color: rgba(var(--red));
+        border-color: rgba(var(--red));
+
+        &:active {
+            background-color: rgba(var(--red), 0.1);
+        }
     }
     &.colorGrey-2DXtkV {
-        color: var(--grey-text);
-        border-color: var(--grey-border);
+        color: rgba(var(--grey));
+        border-color: rgba(var(--grey));
+
+        &:active {
+            background-color: rgba(var(--grey), 0.1);
+        }
     }
     &.colorPrimary-3b3xI6 {
-        color: var(--primary-white-text);
-        border-color: var(--primary-border);
+        color: rgba(var(--primary-white));
+        border-color: rgba(var(--primary-white));
+
+        &:active {
+            background-color: rgba(var(--primary-white), 0.1);
+        }
     }
     &.colorLink-35jkBc {
-        color: var(--link-text);
-        border-color: var(--link-border);
+        color: rgba(var(--link));
+        border-color: rgba(var(--link));
+
+        &:active {
+            background-color: rgba(var(--link), 0.1);
+        }
+    }
+    &.colorWhite-rEQuAQ {
+        color: rgba(var(--white));
+        border-color: rgba(var(--white));
+
+        &:active {
+            background-color: rgba(var(--white), 0.1);
+        }
+    }
+    &.colorBlack-1jwPVL {
+        color: rgba(var(--black));
+        border-color: rgba(var(--black));
+
+        &:active {
+            background-color: rgba(var(--black), 0.1);
+        }
     }
 }

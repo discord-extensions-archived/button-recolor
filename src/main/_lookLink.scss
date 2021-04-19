@@ -4,52 +4,66 @@
 
 #app-mount .lookLink-9FtZy- {
     &.colorBrand-3pXr91 {
-        color: var(--blurple-text);
+        color: rgba(var(--blurple));
 
-        &:hover .contents-18-Yxp {
-            @include linkHover(var(--blurple-text));
+        &:not([disabled]):hover .contents-18-Yxp {
+            @include linkHover(rgba(var(--blurple)));
         }
     }
     &.colorGreen-29iAKY {
-        color: var(--green-text);
+        color: rgba(var(--green));
 
-        &:hover .contents-18-Yxp {
-            @include linkHover(var(--green-text));
+        &:not([disabled]):hover .contents-18-Yxp {
+            @include linkHover(rgba(var(--green)));
         }
     }
     &.colorYellow-2JqYwt {
-        color: var(--yellow-text);
+        color: rgba(var(--yellow));
 
-        &:hover .contents-18-Yxp {
-            @include linkHover(var(--yellow-text));
+        &:not([disabled]):hover .contents-18-Yxp {
+            @include linkHover(rgba(var(--yellow)));
         }
     }
     &.colorRed-1TFJan {
-        color: var(--red-text);
+        color: rgba(var(--red));
 
-        &:hover .contents-18-Yxp {
-            @include linkHover(var(--red-text));
+        &:not([disabled]):hover .contents-18-Yxp {
+            @include linkHover(rgba(var(--red)));
         }
     }
     &.colorGrey-2DXtkV {
-        color: var(--grey-text);
+        color: rgba(var(--grey));
 
-        &:hover .contents-18-Yxp {
-            @include linkHover(var(--grey-text));
+        &:not([disabled]):hover .contents-18-Yxp {
+            @include linkHover(rgba(var(--grey)));
         }
     }
     &.colorPrimary-3b3xI6 {
-        color: var(--primary-white-text);
+        color: rgba(var(--primary-white));
 
-        &:hover .contents-18-Yxp {
-            @include linkHover(var(--primary-white-text));
+        &:not([disabled]):hover .contents-18-Yxp {
+            @include linkHover(rgba(var(--primary-white)));
         }
     }
     &.colorLink-35jkBc {
-        color: var(--link-text);
+        color: rgba(var(--link));
 
-        &:hover .contents-18-Yxp {
-            @include linkHover(var(--link-text));
+        &:not([disabled]):hover .contents-18-Yxp {
+            @include linkHover(rgba(var(--link)));
+        }
+    }
+    &.colorWhite-rEQuAQ {
+        color: rgba(var(--white));
+
+        &:not([disabled]):hover .contents-18-Yxp {
+            @include linkHover(rgba(var(--white)));
+        }
+    }
+    &.colorBlack-1jwPVL {
+        color: rgba(var(--black));
+
+        &:not([disabled]):hover .contents-18-Yxp {
+            @include linkHover(rgba(var(--black)));
         }
     }
 }

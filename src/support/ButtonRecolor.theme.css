@@ -1,3 +1,18 @@
+
+/**
+    * @name Button Recolor
+    * @version 1.0.0
+    * @description Simply change Discord's default button colors.
+    * @author LuckFire#4800
+    *
+    * @website https://github.com/Discord-Theme-Addons
+    * @source https://github.com/Discord-Theme-Addons/button-recolor/tree/master/src
+**/
+
+/* <-------------------- To change button colors, change the variable's values in :root{}. Do NOT change or remove the import. --------------------> */
+/* <----- All values are done in an RGB (Red, Green, Blue) format. You can use https://www.google.com/search?q=colorpicker to choose colors. -----> */
+@import url("https://discord-theme-addons.github.io/button-recolor/src/support/compiled.css");
+
 :root {
     /* -------- DEFAULTS ---- */
     --default-white: #FFFFFF;
@@ -44,5 +59,3 @@
     --white-filled-hover: rgb(230, 230, 230);
     --white-inverted-hover: rgb(104, 107, 114);
 }
-
-@import './src/main/import'

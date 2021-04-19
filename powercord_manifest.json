@@ -1,6 +1,6 @@
 {
-    "name": "Custom Buttons",
-    "description": "Change the default Discord buttons.",
+    "name": "Button Recolor",
+    "description": "Simply change Discord's default button colors.",
     "version": "1.0.0",
     "author": "LuckFire#4800",
     "theme": "index.scss",

@@ -1,36 +1,44 @@
 #app-mount .lookGhost-2Fn_0- {
-    opacity: 0.8;
+    opacity: var(--default-ghost-opacity);
 
     &:hover {
         opacity: 1;
     }
 
     &.colorBrand-3pXr91 {
-        background-color: var(--blurple-ghost);
-        color: var(--blurple-text);
+        background-color: rgba(var(--blurple), 0.1);
+        color: rgba(var(--blurple));
     }
     &.colorGreen-29iAKY {
-        background-color: var(--green-ghost);
-        color: var(--green-text);
+        background-color: rgba(var(--green), 0.1);
+        color: rgba(var(--green));
     }
     &.colorYellow-2JqYwt {
-        background-color: var(--yellow-ghost);
-        color: var(--yellow-text);
+        background-color: rgba(var(--yellow), 0.1);
+        color: rgba(var(--yellow));
     }
     &.colorRed-1TFJan {
-        background-color: var(--red-ghost);
-        color: var(--red-text);
+        background-color: rgba(var(--red), 0.1);
+        color: rgba(var(--red));
     }
     &.colorGrey-2DXtkV {
-        background-color: var(--grey-ghost);
-        color: var(--grey-text);
+        background-color: rgba(var(--grey), 0.1);
+        color: rgba(var(--grey));
     }
     &.colorPrimary-3b3xI6 {
-        background-color: var(--primary-ghost);
-        color: var(--primary-white-text);
+        background-color: rgba(var(--primary-white), 0.1);
+        color: rgba(var(--primary-white));
     }
     &.colorLink-35jkBc {
-        background-color: var(--link-ghost);
-        color: var(--link-text);
+        background-color: rgba(var(--link), 0.1);
+        color: rgba(var(--link));
+    }
+    &.colorWhite-rEQuAQ {
+        background-color: rgba(var(--white), 0.1);
+        color: rgba(var(--white));
+    }
+    &.colorBlack-1jwPVL {
+        background-color: rgba(var(--black), 0.1);
+        color: rgba(var(--black));
     }
 }

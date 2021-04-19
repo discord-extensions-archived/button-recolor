@@ -1,29 +1,41 @@
 #app-mount .lookInverted-2D7oAl {
-    background-color: var(--default-inverted);
-    
-    &:hover {
-        background-color: var(--default-inverted-hover);
+    &:not(.colorWhite-rEQuAQ) {
+        background-color: var(--default-inverted);
+        
+        &:not([disabled]):hover {
+            background-color: var(--default-inverted-hover);
+        }
     }
 
     &.colorBrand-3pXr91 {
-        color: var(--blurple-text);
+        color: rgba(var(--blurple));
     }
     &.colorGreen-29iAKY {
-        color: var(--green-text);
+        color: rgba(var(--green));
     }
     &.colorYellow-2JqYwt {
-        color: var(--yellow-text);
+        color: rgba(var(--yellow));
     }
     &.colorRed-1TFJan {
-        color: var(--red-text);
+        color: rgba(var(--red));
     }
     &.colorGrey-2DXtkV {
-        color: var(--grey-text);
+        color: rgba(var(--grey));
     }
     &.colorPrimary-3b3xI6 {
-        color: var(--primary-text);
+        color: rgba(var(--grey));
     }
     &.colorLink-35jkBc {
-        color: var(--link-text);
+        color: rgba(var(--link));
+    }
+    &.colorWhite-rEQuAQ {
+        color: rgba(var(--white));
+
+        &:not([disabled]):hover {
+            background-color: var(--white-inverted-hover);
+        }
+    }
+    &.colorBlack-1jwPVL {
+        color: rgba(var(--black));
     }
 }

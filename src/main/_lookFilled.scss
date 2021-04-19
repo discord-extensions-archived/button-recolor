@@ -1,58 +1,74 @@
 #app-mount .lookFilled-1Gx00P {
-    &.colorBrand-3pXr91 {
-        background-color: var(--blurple-filled);
+    &.colorBrand-3pXr91:not(.buttonColor-7qQbGO) {
+        background-color: rgba(var(--blurple));
         color: var(--default-white);
 
-        &:hover {
+        &:not([disabled]):hover {
             background-color: var(--blurple-filled-hover);
         }
     }
     &.colorGreen-29iAKY {
-        background-color: var(--green-filled);
+        background-color: rgba(var(--green));
         color: var(--default-white);
 
-        &:hover {
+        &:not([disabled]):hover {
             background-color: var(--green-filled-hover);
         }
     }
     &.colorYellow-2JqYwt {
-        background-color: var(--yellow-filled);
+        background-color: rgba(var(--yellow));
         color: var(--default-white);
 
-        &:hover {
+        &:not([disabled]):hover {
             background-color: var(--yellow-filled-hover);
         }
     }
     &.colorRed-1TFJan {
-        background-color: var(--red-filled);
+        background-color: rgba(var(--red));
         color: var(--default-white);
 
-        &:hover {
+        &:not([disabled]):hover {
             background-color: var(--red-filled-hover);
         }
     }
     &.colorGrey-2DXtkV {
-        background-color: var(--grey-filled);
+        background-color: rgba(var(--grey));
         color: var(--default-white);
 
-        &:hover {
+        &:not([disabled]):hover {
             background-color: var(--grey-filled-hover);
         }
     }
     &.colorPrimary-3b3xI6 {
-        background-color: var(--primary-filled);
+        background-color: rgba(var(--primary));
         color: var(--default-white);
 
-        &:hover {
+        &:not([disabled]):hover {
             background-color: var(--primary-filled-hover);
         }
     }
     &.colorLink-35jkBc {
-        background-color: var(--link-filled);
+        background-color: rgba(var(--link));
         color: var(--default-white);
 
-        &:hover {
+        &:not([disabled]):hover {
             background-color: var(--link-filled-hover);
+        }
+    }
+    &.colorWhite-rEQuAQ {
+        background-color: rgba(var(--white));
+        color: var(--white-black);
+
+        &:not([disabled]):hover {
+            background-color: var(--white-filled-hover);
+        }
+    }
+    &.colorBlack-1jwPVL {
+        background-color: rgba(var(--black));
+        color: var(--default-white);
+
+        &:not([disabled]):hover {
+            background-color: var(--black-filled-hover);
         }
     }
 }
